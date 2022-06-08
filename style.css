@@ -37,7 +37,8 @@ table{
     border: 0;
     padding: 10px 20px;
     color:white;
-    border-radius: 4%
+    border-radius: 4%;
+    transition: 0.3s all ease-in-out;
 }
 
 .typing{
@@ -46,5 +47,17 @@ table{
     padding: 5px 10px;
 }
 .typing:focus{
-    outline: 0;
+
+}
+
+#output{
+    min-width: 300px;
+    height: auto;
+}
+
+
+/* animation */
+
+.btn.active{
+    background-color: red;
 }
