@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <header id="heading">
+            <h1>Passowrd Generator</h1>
+        </header>
+        <hr>
+        <section id="inputs">
+                <table>
+                    <tr>
+                        <div class="input-element">
+                            <td><label>Password length: </label></td>
+                            <td><input type="number" id="len"class="typing"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="input-element">
+                            <td><label>Include lowercase alphabet (a -> z): </label></td>
+                            <td><input type="checkbox"  class="chkbx"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="input-element">
+                            <td><label>Include uppercase alphabet (A -> Z): </label></td>
+                            <td><input type="checkbox" class="chkbx"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="input-element">
+                            <td><label>Include numbers (0 - 9): </label></td>
+                            <td><input type="checkbox" class="chkbx"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="input-element">
+                            <td><label>Include special symbol (! -> &): </label></td>
+                            <td><input type="checkbox" class="chkbx"></td>
+                        </div>
+                    </tr>
+                </table>
+                <div class="buttons">
+                    <input type="submit" value="Generate password" class="btn" id="genpass">
+                    <input type="reset" value="Reset options" class="btn">
+                </div>
+                <div class="yourPassword">
+                    <label>Your generated password: </label><input class="typing" type="text" id="output" readonly> <button class="btn">Copy</button>
+                </div>
+        </section>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

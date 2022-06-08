@@ -1,0 +1,50 @@
+body{
+    color:white;
+    background-color: #21325E;
+}
+
+#container{
+    width:75%;
+    margin:auto;
+    background-color:#3E497A;
+    height: 400px;
+    border-radius: 4%;
+}
+
+#heading{
+    text-align: center;
+    padding-top:10px;
+}
+
+hr{
+    opacity: 30%;
+    width: 75%;
+    border: 1px solid black;
+}
+
+#inputs{
+    margin: 2% 3%;
+}
+
+label{
+    width:200px;
+}
+table{
+    line-height: 1.7;
+}
+.btn{
+    background-color: #21325E;
+    border: 0;
+    padding: 10px 20px;
+    color:white;
+    border-radius: 4%
+}
+
+.typing{
+    border-radius: 4%;
+    border: 0;
+    padding: 5px 10px;
+}
+.typing:focus{
+    outline: 0;
+}
