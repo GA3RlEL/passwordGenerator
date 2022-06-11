@@ -10,4 +10,4 @@ On this website you can generate random password based on our preferences what y
 
 ## link to check website
 
-https://ga3rlel.github.io/passwordGenerator/
+https://ga3rlel.github.io/passwordGenerator/ (This website is not responsive)
